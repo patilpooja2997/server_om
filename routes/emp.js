@@ -4,11 +4,10 @@ var express = require("express");
 var emprouter =  express();
 
 const connection = mysql.createConnection({
-    host     : '200.0.1.206',
+    host     : 'localhost',
     user     : 'root',
     password : 'Manager',
-    database : 'kdac',
-port:3309
+    database : 'Kdac'
   });
 
 var myData =[];
